@@ -7,6 +7,7 @@ import css from "react-syntax-highlighter/dist/cjs/languages/prism/css";
 
 import PostHeader from "./post-header";
 import classes from "./post-content.module.css";
+import AdBanner from "../../AdBanner";
 
 SyntaxHighlighter.registerLanguage("js", js);
 SyntaxHighlighter.registerLanguage("css", css);
