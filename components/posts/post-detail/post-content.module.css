@@ -13,10 +13,6 @@
     color: var(--color-grey-800);
 }
 
-/* .content img {
-    max-width: 200px;
-} */
-
 
 @media (min-width: 768px) {
     .content {
