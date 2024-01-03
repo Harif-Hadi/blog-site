@@ -7,7 +7,6 @@ import css from "react-syntax-highlighter/dist/cjs/languages/prism/css";
 
 import PostHeader from "./post-header";
 import classes from "./post-content.module.css";
-import AdBanner from "../../AdBanner";
 
 SyntaxHighlighter.registerLanguage("js", js);
 SyntaxHighlighter.registerLanguage("css", css);
@@ -69,11 +68,7 @@ function PostContent(props) {
     <article className={classes.content}>
       <PostHeader title={post.title} image={imagePath} />
       <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
-      <AdBanner
-        data-ad-slot="7418594472"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
+      
     </article>
   );
 }
