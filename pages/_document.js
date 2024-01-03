@@ -9,6 +9,7 @@ class MyDocument extends Document {
           <Script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4952522045979963"
+            strategy="lazyOnload"
             crossorigin="anonymous"
           />
         </Head>
