@@ -68,6 +68,11 @@ function PostContent(props) {
     <article className={classes.content}>
       <PostHeader title={post.title} image={imagePath} />
       <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
+      <AdBanner
+        data-ad-slot="7418594472"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
     </article>
   );
 }
