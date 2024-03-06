@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import AdBanner from "../../components/AdBanner";
 import PostContent from "../../components/posts/post-detail/post-content";
 
 import { getPostData, getPostsFiles } from "../../lib/posts-util";
@@ -13,11 +12,6 @@ function PostDetailPage(props) {
         <meta name="description" content={props.post.excerpt} />
       </Head>
       <PostContent post={props.post} />
-      <AdBanner
-        data-ad-slot="7418594472"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
     </Fragment>
   );
 }
